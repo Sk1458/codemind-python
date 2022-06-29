@@ -13,5 +13,3 @@ def Ldig(n):
     return R
 S=int(input())
 print(Ldig(S))
-    
-            
