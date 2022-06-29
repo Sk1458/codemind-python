@@ -14,4 +14,3 @@ if X==rev(Y):
     print("True")
 else:
     print("False")
-
