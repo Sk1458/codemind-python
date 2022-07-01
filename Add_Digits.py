@@ -1,10 +1,11 @@
 def add(n):
-    s=0
+    a=0
     while n>0:
         r=n%10
-        s+=r
+        a+=r
         n=n//10
-    return s
+    return a
+    
 n=int(input())
 while(n>10):
     n=add(n)
