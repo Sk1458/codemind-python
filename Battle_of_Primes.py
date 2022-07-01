@@ -1,6 +1,6 @@
 def prime(n):
     while n:
-        c = 0
+        c=0
         for i in range(2,n//2):
             if n%i==0:
                 c+=1
@@ -8,6 +8,8 @@ def prime(n):
             return n
         n+=1
         
-k = int(input())
-l = int(input())
-print(prime(k+l+1)-(k+l))
+k=int(input())
+l=int(input())
+x=prime(k+l+1)
+y=k+l
+print(x-y)
