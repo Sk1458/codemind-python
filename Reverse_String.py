@@ -1,4 +1,7 @@
-#program to reverse a given string 
+# program to print the given string in reverse order without actually reversing it for every character
 
-s=input()
-print(s[::-1])
+a = input().split()
+for i in reversed(a):
+    print(i,end = " ")
+
+
