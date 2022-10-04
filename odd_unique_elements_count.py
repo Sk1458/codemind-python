@@ -1,9 +1,9 @@
 n = int(input())
-a = list(map(int,input().split()))
+arr = list(map(int,input().split()))
 c = 0
-a = set(a)
-a = list(a)
-for i in range(len(a)):
-    if a[i]%2:
+arr = set(arr)
+arr = list(arr)
+for i in range(len(arr)):
+    if arr[i]%2:
         c+=1
 print(c)
