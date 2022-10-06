@@ -1,9 +1,9 @@
 n = input()
-a = list(map(int,input().split()))
-a1,a2 = map(int,input().split())
-m = -1
-for i in a:
-    if i<a1 or i>a2:
-        if m<i:
-            m=i
-print(m)
+arr = list(map(int,input().split()))
+a,b = map(int,input().split())
+ma = -1
+for i in arr:
+    if i<a or i>b:
+        if ma<i:
+            ma=i
+print(ma)
