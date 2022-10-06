@@ -1,11 +1,11 @@
 n = int(input())
-a = list(map(int,input().split()))
+arr = list(map(int,input().split()))
 k = int(input())
-d = []
+a = []
 for i in range(n):
-    if a.count(a[i])==k and a[i] not in d:
-        d.append(a[i])
-if len(d)==0:
+    if arr.count(arr[i])==k and arr[i] not in a:
+        a.append(arr[i])
+if len(a)==0:
     print("-1")
 else:
-    print(*d)
+    print(*a)
