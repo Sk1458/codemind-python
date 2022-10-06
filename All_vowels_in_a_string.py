@@ -5,7 +5,6 @@ l = 0
 u_c = []
 l_d = []
 n = input()
-#print(n)
 for i in range(0,len(n)-1):
     if n[i] in a:
         if n[i] not in u_c:
